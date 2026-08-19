@@ -340,53 +340,6 @@ A fully functional APB UART controller was designed in Verilog HDL, verified in 
 3. Mentor Graphics, "ModelSim User's Manual," Siemens EDA.
 4. J. Bhasker, "Verilog HDL Synthesis: A Practical Primer," Star Galaxy Publishing, 1998.
 
----
-
-## Appendix A: Project Folder Structure
-
-```
-UART/
-├── rtl/
-│   ├── apb_uart_controller.v   — Top-level module
-│   ├── apb_slave.v             — APB interface + register file
-│   ├── baud_generator.v        — Programmable baud rate generator
-│   ├── uart_tx.v               — UART transmitter (8N1)
-│   └── uart_rx.v               — UART receiver (8N1)
-├── tb/
-│   └── apb_uart_tb.v           — Self-checking testbench
-├── sim/
-│   └── run_sim.do              — ModelSim compilation & run script
-├── quartus/
-│   └── setup_quartus.tcl       — Quartus project creation script
-├── reports/
-│   └── APB_UART_Controller_Report.md
-└── figures/
-    └── (waveform screenshots and synthesis results)
-```
-
-## Appendix B: ModelSim Quick Reference
-
-```bash
-# Navigate to sim/ directory in ModelSim transcript
-cd {C:/path/to/UART/sim}
-
-# Run the automated script
-do run_sim.do
-
-# --- OR manually: ---
-vlib work
-vlog ../rtl/baud_generator.v
-vlog ../rtl/uart_tx.v
-vlog ../rtl/uart_rx.v
-vlog ../rtl/apb_slave.v
-vlog ../rtl/apb_uart_controller.v
-vlog ../tb/apb_uart_tb.v
-vsim -t 1ps work.apb_uart_tb
-add wave -r /*
-run -all
-```
-
-## Appendix C: Waveform Signal Guide
 
 ### What to look for in each waveform:
 
