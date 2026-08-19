@@ -1,0 +1,143 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/AKSHAY/Downloads/UART
+vapb_slave
+Z1 !s110 1787072439
+!i10b 1
+!s100 nKS209dmY8R=VghHbA2J23
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IT=GAFFEB^>h2W69an82cZ2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1787067382
+8rtl/apb_slave.v
+Frtl/apb_slave.v
+!i122 0
+L0 16 130
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1787072439.000000
+Z6 !s107 rtl/apb_uart_controller.v|rtl/uart_rx.v|rtl/uart_tx.v|rtl/baud_generator.v|rtl/apb_slave.v|
+Z7 !s90 -reportprogress|300|rtl/apb_slave.v|rtl/baud_generator.v|rtl/uart_tx.v|rtl/uart_rx.v|rtl/apb_uart_controller.v|
+!i113 1
+Z8 tCvgOpt 0
+vapb_uart_controller
+R1
+!i10b 1
+!s100 ]f]LzMHjLP;=FL2oAAZ4T1
+R2
+I?l1e7;l4@3LAEB?:OWm9Y3
+R3
+R0
+w1787067404
+8rtl/apb_uart_controller.v
+Frtl/apb_uart_controller.v
+!i122 0
+L0 20 106
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vapb_uart_tb
+!s110 1787072472
+!i10b 1
+!s100 Ef4]klS?`o`dWb^m]QXZ;1
+R2
+If9Mf[=S@=i;zoQIDoQ=CM0
+R3
+R0
+w1787067490
+8tb/apb_uart_tb.v
+Ftb/apb_uart_tb.v
+!i122 1
+L0 10 518
+R4
+r1
+!s85 0
+31
+!s108 1787072472.000000
+!s107 tb/apb_uart_tb.v|
+!s90 -reportprogress|300|tb/apb_uart_tb.v|
+!i113 1
+R8
+vbaud_generator
+R1
+!i10b 1
+!s100 I;TTj63=ff^QXn=8Sd>BD2
+R2
+IV5H5PB`j13JbkTXZnmXnO0
+R3
+R0
+w1787067306
+8rtl/baud_generator.v
+Frtl/baud_generator.v
+!i122 0
+L0 8 29
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vuart_rx
+R1
+!i10b 1
+!s100 AC7gl^Y[[lS6]R`XG6Z4:0
+R2
+IeTn_:oQEONIz9MZ=dk=R[1
+R3
+R0
+w1787067350
+8rtl/uart_rx.v
+Frtl/uart_rx.v
+!i122 0
+L0 9 130
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vuart_tx
+R1
+!i10b 1
+!s100 m7@[n2NNhQdI2Qd5=@2DV3
+R2
+I=cS_k:eQX3L`GWW<BmO^o3
+R3
+R0
+w1787067326
+8rtl/uart_tx.v
+Frtl/uart_tx.v
+!i122 0
+L0 8 99
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8

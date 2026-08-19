@@ -1,0 +1,201 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "PRDATA[0]",
+					"strict" : false
+				},
+				{
+					"name" : "PRDATA[1]",
+					"strict" : false
+				},
+				{
+					"name" : "PRDATA[2]",
+					"strict" : false
+				},
+				{
+					"name" : "PRDATA[3]",
+					"strict" : false
+				},
+				{
+					"name" : "PRDATA[4]",
+					"strict" : false
+				},
+				{
+					"name" : "PRDATA[5]",
+					"strict" : false
+				},
+				{
+					"name" : "PRDATA[6]",
+					"strict" : false
+				},
+				{
+					"name" : "PRDATA[7]",
+					"strict" : false
+				},
+				{
+					"name" : "PRDATA[8]",
+					"strict" : false
+				},
+				{
+					"name" : "PRDATA[9]",
+					"strict" : false
+				},
+				{
+					"name" : "PRDATA[10]",
+					"strict" : false
+				},
+				{
+					"name" : "PRDATA[11]",
+					"strict" : false
+				},
+				{
+					"name" : "PRDATA[12]",
+					"strict" : false
+				},
+				{
+					"name" : "PRDATA[13]",
+					"strict" : false
+				},
+				{
+					"name" : "PRDATA[14]",
+					"strict" : false
+				},
+				{
+					"name" : "PRDATA[15]",
+					"strict" : false
+				},
+				{
+					"name" : "PSLVERR",
+					"strict" : false
+				},
+				{
+					"name" : "uart_txd",
+					"strict" : false
+				},
+				{
+					"name" : "PADDR[4]",
+					"strict" : false
+				},
+				{
+					"name" : "PADDR[2]",
+					"strict" : false
+				},
+				{
+					"name" : "PADDR[3]",
+					"strict" : false
+				},
+				{
+					"name" : "PSEL",
+					"strict" : false
+				},
+				{
+					"name" : "PWRITE",
+					"strict" : false
+				},
+				{
+					"name" : "PADDR[0]",
+					"strict" : false
+				},
+				{
+					"name" : "PADDR[1]",
+					"strict" : false
+				},
+				{
+					"name" : "PADDR[5]",
+					"strict" : false
+				},
+				{
+					"name" : "PADDR[6]",
+					"strict" : false
+				},
+				{
+					"name" : "PADDR[7]",
+					"strict" : false
+				},
+				{
+					"name" : "PENABLE",
+					"strict" : false
+				},
+				{
+					"name" : "PCLK",
+					"strict" : false
+				},
+				{
+					"name" : "PRESETn",
+					"strict" : false
+				},
+				{
+					"name" : "PWDATA[0]",
+					"strict" : false
+				},
+				{
+					"name" : "PWDATA[1]",
+					"strict" : false
+				},
+				{
+					"name" : "PWDATA[2]",
+					"strict" : false
+				},
+				{
+					"name" : "PWDATA[3]",
+					"strict" : false
+				},
+				{
+					"name" : "PWDATA[4]",
+					"strict" : false
+				},
+				{
+					"name" : "PWDATA[5]",
+					"strict" : false
+				},
+				{
+					"name" : "PWDATA[6]",
+					"strict" : false
+				},
+				{
+					"name" : "PWDATA[7]",
+					"strict" : false
+				},
+				{
+					"name" : "PWDATA[8]",
+					"strict" : false
+				},
+				{
+					"name" : "PWDATA[9]",
+					"strict" : false
+				},
+				{
+					"name" : "PWDATA[10]",
+					"strict" : false
+				},
+				{
+					"name" : "PWDATA[11]",
+					"strict" : false
+				},
+				{
+					"name" : "PWDATA[12]",
+					"strict" : false
+				},
+				{
+					"name" : "PWDATA[13]",
+					"strict" : false
+				},
+				{
+					"name" : "PWDATA[14]",
+					"strict" : false
+				},
+				{
+					"name" : "PWDATA[15]",
+					"strict" : false
+				},
+				{
+					"name" : "uart_rxd",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

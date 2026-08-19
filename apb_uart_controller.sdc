@@ -1,0 +1,1 @@
+create_clock -name PCLK -period 20.000 [get_ports {PCLK}]
